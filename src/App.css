@@ -1,0 +1,15 @@
+.basePage{
+  background-color: black;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.leftComp{
+  background-image: url('./bg2.jpg');
+  background-repeat: no-repeat;
+}
+.rightComp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

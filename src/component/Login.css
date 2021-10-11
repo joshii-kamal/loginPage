@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200;300&display=swap');
+.loginContainer{
+    background-color: rgba(29, 29, 29, 0.596);
+    width: 30vw;
+    height: 60vh;
+    color: white;
+    box-shadow: -1px 1px 20px rgba(255, 255, 255, 0.192);
+}
+.loginHeading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: xx-large;
+}
+.loginUnderline{
+    background-color: gray;
+    width: 40px;
+    height: 3px;
+    margin-top: -30px;
+    border-left: 20px solid white;
+    border-right: 20px solid white;
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -15%;
+    margin-top: 6%;
+}
+.innerloginform{
+    display: flex;
+    flex-direction: column;
+}
+.innerloginform input{
+    margin-bottom: 30px;
+    margin-top: 3px;
+    width: 135%;
+    outline: none;
+    height: 25px;
+    font-size: 17px;
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 600;
+}
+
+.loginBtn input{
+    all: unset;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 130px;
+    margin-left: 25%;
+    height: 30px;
+    font-size: 20px;
+}
+
+.loginBtn input:hover{
+    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.068);
+}
+.registerPage{
+    display: flex;
+    justify-content: center;
+}
+.registerPage p{
+    margin-left: 5px;
+    cursor: pointer;
+}
+.registerPage .swapP:hover{
+    color: blue;
+    cursor: pointer;
+}
